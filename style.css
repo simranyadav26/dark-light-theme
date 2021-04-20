@@ -260,5 +260,60 @@ input:checked + .slider::before {
   font-size: 30px;
   margin-right: 5px;
 }
+/* Responsive*/
+@media(max-width:450px){
+  section {
+    min-height: 250px;
+   
+  }
+  .about-container {
+    
+    border-radius: 4px;
+    padding: 10px;
+    margin: 10px;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  img {
+    height: 100px;
+    width: 100px;
+  }
+  h1 {
+    
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  h2 {
+    
+    font-size: 28px;
+    
+  }
+  .text-box {
+    width: 67%;
+    border-radius: 5px;
+    padding: 14px;
+    margin-top: 10px;
+  }
+  .buttons {
+    margin:5px 5px 10px 25px;
+  }
+  
+  button {
+    min-width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    margin: 3px;
+    font-size: 15px;
+    
+  }
+  .fab {
+    font-size:35px;
+    margin:10px;
+    
+  }
+  
 
-/* Media Query*/
+}
